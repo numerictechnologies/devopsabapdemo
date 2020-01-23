@@ -27,33 +27,6 @@
 						]
 					}
 				},
-				/*{
-					"listen": "test",
-					"script": {
-						"id": "3a8a19d9-4537-4dc4-8859-9c78679063c6",
-						"type": "text/javascript",
-						"exec": [
-							"if (tests[\"X-CSRF-Token is present\"] = responseHeaders.hasOwnProperty(\"x-csrf-token\")) {",
-							"    postman.setEnvironmentVariable(\"x-csrf-token\", postman.getResponseHeader(\"x-csrf-token\"));",
-							"} else {",
-							"    postman.setNextRequest(null);   ",
-							"}"
-						]
-					}
-				}
-			],
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "X-CSRF-Token",
-						"value": "Fetch"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n\t\n}"
-				},*/
 				"url": {
 					"raw": "{{protocol}}://{{host}}:{{port}}/sap/bc/adt/abapunit?sap-client={{client}}&sap-language=EN",
 					"protocol": "{{protocol}}",
