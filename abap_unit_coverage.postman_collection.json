@@ -27,7 +27,7 @@
 						]
 					}
 				},
-				{
+				/*{
 					"listen": "test",
 					"script": {
 						"id": "3a8a19d9-4537-4dc4-8859-9c78679063c6",
@@ -53,7 +53,7 @@
 				"body": {
 					"mode": "raw",
 					"raw": "{\n\t\n}"
-				},
+				},*/
 				"url": {
 					"raw": "{{protocol}}://{{host}}:{{port}}/sap/bc/adt/abapunit?sap-client={{client}}&sap-language=EN",
 					"protocol": "{{protocol}}",
